@@ -11,9 +11,10 @@ var color = "Forest Green";
 var year = 2021; 
 
 // Calculate 
-var age = 2024 - year; 
+var currentYear = new Date().getFullYear(); 
+var age = currentYear - year;
 
-//Output 
+//Output variables using document.writeln()
 document.writeln("Make: " + make + "<br>");
 document.writeln("Model: " + model + "<br>"); 
 document.writeln("Color: " + color + "<br>");
