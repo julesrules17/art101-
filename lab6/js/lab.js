@@ -25,3 +25,4 @@ document.writeln("Getting around: " + myTransport.join(", ") + "<br>");
 
 // Output myMainRide using JSON.Stringify() for better formatting 
 document.writeln("My Main Ride: <pre>" + JSON.stringify(myMainRide, null, '\t') + "</pre>");
+
