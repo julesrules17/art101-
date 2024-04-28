@@ -1,21 +1,27 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/*
+/
+//Author: Julia Gompertz <jgompert@ucsc.edu> 
+// Created 28 April 2024 
+// License: Public Domain
 
-// Constants
+*/
 
-// Functions
+// Define Variables 
+var myTransport = ["car", "bike", "bus", "train"];
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+// Create an object for my main ride 
+var myMainRide = {
+  make: "Honda",
+  model: "Civic",
+  year: 2021,
+  color: "forest green",
+  age: function() {
+    return 2024 - this.year;
+  }
+};
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+// Output myTransport
+document.writeln("Getting around: " + myTransport.join(", ") + "<br>");
 
-// let's get this party started
-main();
+// Output myMainRide using JSON.Stringify() for better formatting 
+document.writeln("My Main Ride: <pre>" + JSON.stringify(myMainRide, null, '\t') + "</pre>");
