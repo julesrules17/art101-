@@ -27,5 +27,4 @@ function sortUserName() {
 }
 
 // output
-document.writeln("oh hey, i've fixed your name: ",
-    sortUserName(), "</br>") 
+document.writeln("oh hey, i've fixed your name: ", sortUserName(), "</br>") 
