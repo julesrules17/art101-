@@ -7,9 +7,9 @@ Created: 12 May 2024
 License: public domain
 */
 
-$("#challenge, #problems, #results").on("click", "button", function() {
+$("#Challenge, #Problems, #Results").on("click", "button", function() {
     $(this).parent().toggleClass("special");
   });
-    $("#challenge, #problems, #results").each(function() {
+    $("#Challenge, #Problems, #Results").each(function() {
       $(this).append("<button class='make-special'>Make Special</button>");
   });
