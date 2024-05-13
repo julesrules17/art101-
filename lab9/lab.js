@@ -13,3 +13,4 @@ $("#Challenge, #Problems, #Results").on("click", "button", function() {
     $("#Challenge, #Problems, #Results").each(function() {
       $(this).append("<button class='make-special'>Make Special</button>");
   });
+  

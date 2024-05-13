@@ -8,21 +8,21 @@
     background-color: #DDD8C4;
   } 
 
-  #Problems {
+#Problems {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #DDD8C4;
   } 
 
-  #Results {
+#Results {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #DDD8C4;
   } 
 
-  .special {
+.special {
     background-color: lavender;
     border: dotted 50px red;
     color: pink;
