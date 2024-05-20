@@ -19,7 +19,7 @@ $(document).ready(function() {
     // click listener for button 
     $("#submit").click(function(){
         // get value of input field 
-        const userName = $("user-name").val();
+        const userName = $("#user-name").val();
 
         // now lets sort it
         const userNameSorted = sortString(userName);
