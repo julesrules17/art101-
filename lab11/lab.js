@@ -14,9 +14,7 @@ function sortString(inputString) {
     return inputString.split('').sort().join('');
 }
 
-//wait for the doc to fully load
-$(document).ready(function() {
-    // click listener for button 
+// click listener for button 
     $("#submit").click(function(){
         // get value of input field 
         const userName = $("#user-name").val();
@@ -27,4 +25,3 @@ $(document).ready(function() {
         // append a new div to our output div
         $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
     });
-});
