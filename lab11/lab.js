@@ -5,7 +5,7 @@
 
     Author: julia gompertz
     Date: 19 May 2024
-    License: Public Domain
+    License: public domain
 */
 
 // Sorts the characters of a string in alphabetical order. 
